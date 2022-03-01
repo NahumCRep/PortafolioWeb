@@ -1,0 +1,142 @@
+@import url('./root-variables.css');
+
+.socialm-container{
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    z-index: 2000;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.sm__list{
+    width: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    z-index: 150;
+    position: relative;
+}
+
+.sm-arrow{
+    width: 40px;
+    height: 40px;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: translateX(500px);
+    transition: transform 0.5s ease
+}
+
+
+
+.sm-arrow:hover > i{
+    transform: translateX(-5px);
+}
+
+.sm-a-show{
+    transform: translateX(0px);
+}
+
+.sm-hidden{
+    transform: translateX(500px);
+}
+
+.sm-show:nth-child(1){
+    transform: translateX(0px);
+    transition-delay: 0.1s;
+}
+.sm-show:nth-child(2){
+    transform: translateX(0px);
+    transition-delay: 0.3s;
+}
+.sm-show:nth-child(3){
+    transform: translateX(0px);
+    transition-delay: 0.5s;
+}
+.sm-show:nth-child(4){
+    transform: translateX(0px);
+    transition-delay: 0.7s;
+}
+
+.socialm-container i{
+    transform: scale(1.5);
+    color: var(--white);
+    transition: all 0.2s ease-in-out;
+}
+
+.sm-item{
+    width: 40px;
+    height: 40px;
+    background: var(--orange);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+
+.sm-item:hover > a i{
+   filter: drop-shadow(1px 2px 1px rgba(46, 64, 83, 0.5))
+   drop-shadow(1px 3px 1px rgba(46, 64, 83, 0.4))
+   drop-shadow(2px 4px 1px rgba(46, 64, 83, 0.3))
+    drop-shadow(3px 4px 1px rgba(46, 64, 83, 0.2))
+    drop-shadow(4px 5px 1px rgba(46, 64, 83, 0.1));
+}
+
+/* .circle{
+    border-radius: 50%;
+} */
+
+.small-size{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+@media  screen and (min-width: 750px) {
+    .socialm-container{
+        width: 80px;
+        overflow: visible;
+        right: 0;
+        bottom: 55%;
+        transform: translateY(55%);
+        /* background-color: aqua; */
+    }
+
+    .sm-arrow{
+        width: 100%;
+        height: 50px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        margin-left: 20px;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+
+ 
+
+    .sm-item{
+        width: 40px;
+        height: 40px;
+    }
+
+    .small-size{
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}

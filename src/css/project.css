@@ -1,0 +1,107 @@
+@import url('./root-variables.css');
+
+.project-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* margin-top: 30px; */
+    /* padding: 80px 20px 80px 20px; */
+    padding: 5rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--dark);
+}
+
+
+
+/* .project-container::after{
+    content: '';
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    background: var(--purple);
+    left: 0;
+    top: 0;
+} */
+
+.pj-sec-h1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-family: var(--quando);
+    color: var(--orange);
+    letter-spacing: 1px;
+}
+
+.pj-content{
+    width: 90%;
+    height: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* background-color: red; */
+}
+
+.pj-img {
+    width: 200px;
+    height: 200px;
+}
+
+.pj-linkToAll{
+    width: 90%;
+    height: 50px;
+    margin-top: 4rem;
+    padding-right: 3rem;
+}
+
+.pj-linkToAll a{
+    width: 140px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--quando);
+    font-size: 0.9rem;
+    color: var(--dark);
+    text-decoration: none;
+    background: var(--orange);
+    transition: all 0.3s ease-in-out;
+}
+
+.pj-linkToAll a:hover{
+    background: var(--lightorange);
+    letter-spacing: 1px;
+}
+
+@media  screen and (min-width: 750px) {
+    .project-container{
+        padding: 5rem 0 4rem 0;
+    }
+    
+    .project-container::after{
+        width: 30%;
+    }
+
+    .pj-content{
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+
+    .pj-sec-h1{
+        width: 70%;
+        font-size: 35px;
+        text-align: start;
+        margin-top: 50px;
+    }
+    .pj-linkToAll a{
+        width: 190px;
+        height: 50px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+}

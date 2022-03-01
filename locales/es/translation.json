@@ -1,0 +1,43 @@
+{
+    "titles":{
+        "pageOne":"Portafolio",
+        "pageTwo":"Proyectos"
+    },
+    "nav":{
+        "home": "Inicio",
+        "about": "Sobre Mi",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contactar"
+    },
+    "header":{
+        "header-hi": "Hola!!",
+        "header-bname": "me llamo",
+        "header-job": "Desarrollador",
+        "header-buttom": "Contactar"
+    },
+    "about":{
+        "ab-title": "Sobre Mi",
+        "ab-description": "Graduado en Ingeniería de sistemas y computación, enfocado en crecer profesionalmente como desarrollador web Front End y con la meta de adquirir los conocimientos para ser Full Stack Developer en un futuro.  Estando siempre en constante aprendizaje para desarrollar sitios y aplicaciones web / móviles óptimas. "
+    },
+    "skills":{
+        "sk-title":"Habilidades",
+        "sk-svg": "Una taza de café y a seguir aprendiendo !!"
+    },
+    "projects":{
+        "pj-title": "Proyectos",
+        "pj-all": "Mas Proyectos",
+        "pc-made": "Desarrollado con",
+        "pc-bcode": "Código",
+        "pc-bapp": "Ver App"
+    },
+    "contact":{
+        "cctitle": "Contactar",
+        "phname": "Nombre",
+        "phemail": "Correo",
+        "btnsend": "Enviar"
+    },
+    "footer":{
+        "copy": "Desarrollado por"
+    }
+}

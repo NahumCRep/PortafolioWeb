@@ -1,0 +1,57 @@
+@import url('./root-variables.css');
+
+.footer-container{
+    width: 100%;
+    height: auto;
+    background-color: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.footer-container img{
+    width: 60px;
+    aspect-ratio: 1;
+}
+
+.footer-container a,label{
+    color: var(--white);
+    font-family: var(--quando);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.ft__menu,
+.ft__s-media{
+    display: flex;
+    gap: 20px;
+}
+
+.ft__menu{
+    width: 90%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--orange);
+}
+
+.ft__menu a{
+    text-decoration: none;
+}
+
+.footer-container a:hover{
+    color: #CACFD2;
+}
+
+@media  screen and (min-width: 750px) {
+    
+    .footer-section{  
+        height: 300px;
+        gap: 40px;
+    }
+    
+    .footer-section label{
+        font-size: 0.8rem;
+    }
+}

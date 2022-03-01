@@ -1,0 +1,153 @@
+@import url('./root-variables.css');
+
+.header-container{
+    width: 100vw;
+    max-width: 100%;
+    height: 100vh;
+    background-color: var(--black);
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.header-container::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:  0;
+    background-color: var(--black);
+    background-image: url('../assets//images//codebg.jpg');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.header__content{
+    width: 70%;
+    height: 70%;
+    z-index: 100;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: var(--white);
+    text-shadow: 1px 1px 5px #000;
+    /* background-color: aqua; */
+}
+
+.hc__secondline h1:nth-child(2){
+    margin-top: 10px;
+}
+
+.hc__firtsline{
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.line-orange{
+    width: 70px;
+    height: 8px;
+    background-color: var(--orange);    
+}
+
+/* font family */
+.hc__firtsline h3, .hc__secondline h1, .hc__buttons button{
+    font-family: var(--quando);
+}
+.hc__thirdline h3{
+    font-family: var(--judson);
+}
+/* ------------------------------ */
+/* h sizes */
+.hc__firtsline h3, .hc__thirdline h3{
+    font-size: 1.2rem;
+}
+.hc__secondline h1:first-child{
+    font-size: 1.5rem;
+    line-height: 1;
+}
+.hc__secondline h1:nth-child(2){
+    font-size: 2rem;
+    line-height: 0.9;
+}
+/* ---------------------------- */
+.hc__thirdline span{
+    color: var(--orange);
+}
+
+.hc__buttons{
+    display: flex;
+    gap: 10px;
+}
+.hc__buttons button{
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.hc__buttons button:hover{
+    background-color: var(--lightorange);
+    letter-spacing: 1px;
+}
+
+/* ........................................ */
+@media  screen and (min-width: 750px) {
+
+    .header-container::after{    
+        background-size: 100% auto;
+        background-position: center;
+    }
+
+    .hc__firtsline, .hc__secondline{
+        display: flex;
+        gap: 10px
+    }
+
+    .hc__secondline{
+        align-items: flex-end;
+    }
+  
+    /* h sizes */
+    .hc__firtsline h3, .hc__thirdline h3{
+        font-size: 2rem;
+    }
+    .hc__secondline h1:first-child{
+        font-size: 2.5rem;
+        line-height: 1;
+    }
+    .hc__secondline h1:nth-child(2){
+        font-size: 3rem;
+        line-height: 0.9;
+    }
+    /* ---------------------------- */
+    .hc__buttons{
+        margin-top: 15px;
+    }
+    .hc__buttons button{
+        width: 150px;
+        height: 50px;
+    }
+
+    .line-orange{
+        width: 70px;
+        height: 8px; 
+    }
+    
+}
+

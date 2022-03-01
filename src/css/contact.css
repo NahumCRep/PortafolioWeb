@@ -1,0 +1,139 @@
+@import url('./root-variables.css');
+
+.Contact-Container{
+    width: 100%;
+    height: auto;
+    background-color: var(--black);
+    clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
+    padding: 5rem 0 3rem 0;
+}
+
+.Cct-img{
+    width: 100%;
+    height: 40%;
+    background-color: var(--darkpurple);
+    justify-content: center;
+    align-items: center;
+}
+
+.Cct-img img{
+    width: 80%;
+    height: 80%;
+}
+
+.Cct-form{
+    width: 100%;
+    height: 60%;
+    padding: 20px;
+}
+
+.Cct-form form h3{
+    font-family: var(--quando);
+    color: var(--orange);
+    font-size: 1.5rem;
+}
+
+.Cct-form input[type="text"],
+.Cct-form input[type="email"],
+.Cct-form textarea{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-family: var(--quando);
+    margin-top: 10px;
+    padding: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.Cct-form input:focus{
+    box-shadow: 2px 2px 1px var(--orange),
+                3px 3px 1px var(--orange),
+                4px 4px 1px var(--orange);
+}
+.Cct-form textarea:focus{
+    box-shadow: 2px 2px 1px var(--orange),
+                3px 3px 1px var(--orange),
+                4px 4px 1px var(--orange);
+}
+
+.Cct-form input[type="text"]{
+    height: 35px; 
+}   
+
+.Cct-form textarea{
+   height: 100px;
+   resize: none;
+}
+
+.form-btns{
+    width: 100%;
+    height: 60px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.form-btns button{
+    width: 100%;
+    height: 80%;
+    outline: none;
+    border: none;
+    font-family: var(--quando);
+    background-color: var(--orange);
+    color: var(--white);
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+@media  screen and (min-width: 750px) {
+    .Contact-Container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .Cct-img{
+        width: 50%;
+        height: 100%;
+    }
+
+    .Cct-img img{
+        width: 50%;
+        height: 50%;
+    }
+    .Cct-form{
+        height: 100%;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Cct-form label{
+        position: absolute;
+    }
+
+    .Cct-form input[type="text"]{
+        height: 50px; 
+    }   
+    
+    .Cct-form textarea{
+       height: 200px;
+    }
+
+    .form-btns{
+        justify-content: flex-end;
+    }
+    
+    .form-btns button{
+        width: 50%;
+        font-size: 1.1rem;
+    }
+
+    .form-btns button:hover{
+        background-color: var(--lightorange);
+    }
+}
+
+

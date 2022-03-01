@@ -1,0 +1,77 @@
+[
+    {
+        "name":"Avicci Tribute Page",
+        "description-es": "Página tributo a Avicii que incluye enlace a los sitios oficiales de Avicii, algunas de las canciones y una pequeña cronologia.",
+        "description-en": "Tribute page to Avicii that includes links to Avicii's official sites, some of the songs and a small chronology.",
+        "tecnologies":[
+            "html",
+            "sass",
+            "javascript"
+        ],
+        "repository": "https://github.com/NahumCRep/AviciiTributePage",
+        "link": "https://aviciitributefanpage.netlify.app/",
+        "img": "../../static/images/aviciitribute.png",
+        "popular": true
+    },
+    {
+        "name":"Avicci Tribute Page",
+        "description-es": "Página tributo a Avicii que incluye enlace a los sitios oficiales de Avicii, algunas de las canciones y una pequeña cronologia.",
+        "description-en": "Tribute page to Avicii that includes links to Avicii's official sites, some of the songs and a small chronology.",
+        "tecnologies":[
+            "html",
+            "sass",
+            "javascript"
+        ],
+        "repository": "https://github.com/NahumCRep/AviciiTributePage",
+        "link": "https://aviciitributefanpage.netlify.app/",
+        "img": "../../static/images/aviciitribute.png",
+        "popular": true
+    },
+    {
+        "name":"VERAR",
+        "description-es": "Sitio Web de la empresa (ficticia) VERAR para mostrar información sobre sus productos, principalemte los parches hechos a base de salvia, entre otros articulos",
+        "description-en": "Website of the company (fictitious) VERAR to show information about its products, mainly the patches made with sage, among other articles",
+        "tecnologies":[
+            "react",
+            "node js",
+            "express",
+            "mongo db"
+        ],
+        "repository": "https://github.com/NeCvRep/VerarWeb",
+        "link": "url-de-app",
+        "img":"../../static/images/verar.png",
+        "popular": true
+    },
+    {
+        "name":"VERAR 3",
+        "description-es": "",
+        "description-en": "",
+        "tecnologies":[
+            "next js",
+            "bootstrap",
+            "firebase",
+            "express",
+            "express",
+            "express"
+        ],
+        "repository": "https://github.com/NeCvRep/VerarWeb",
+        "link": "url-de-app",
+        "img": "../../static/images/verar.png",
+        "popular": true
+    },
+    {
+        "name":"VERAR 4",
+        "description-es": "",
+        "description-en": "",
+        "tecnologies":[
+            "react",
+            "node js",
+            "express",
+            "mongo db"
+        ],
+        "repository": "https://github.com/NeCvRep/VerarWeb",
+        "link": "url-de-app",
+        "img": "../../static/images/verar.png",
+        "popular": false
+    }
+]

@@ -1,0 +1,43 @@
+{
+    "titles":{
+        "pageOne":"Portfolio",
+        "pageTwo":"Projects"
+    },
+    "nav":{
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "header":{
+        "header-hi": "Hi!!",
+        "header-bname": "my name is",
+        "header-job": "Developer",
+        "header-buttom": "contact"
+    },
+    "about":{
+        "ab-title":"About Me",
+        "ab-description": "Graduated in Computer and systems engineering and focused on growing professionally as a Front End web developer and with the goal of acquiring the knowledge to be a Full Stack Developer in the future. Always in constant learning to develop optimal web / mobile sites and applications."
+    }, 
+    "skills":{
+        "sk-title":"Skills",
+        "sk-svg": "A cup of coffee and keep learning !!"
+    },
+    "projects":{
+        "pj-title":"Projects",
+        "pj-all":"More Projects",
+        "pc-made": "Developed with",
+        "pc-bcode": "Code",
+        "pc-bapp": "See App"
+    },
+    "contact":{
+        "cctitle": "Contact",
+        "phname": "Name",
+        "phemail": "Email",
+        "btnsend": "Send"
+    },
+    "footer":{
+        "copy": "Developed by"
+    }
+}
