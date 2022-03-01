@@ -10,7 +10,7 @@
         ],
         "repository": "https://github.com/NahumCRep/AviciiTributePage",
         "link": "https://aviciitributefanpage.netlify.app/",
-        "img": "../../static/images/aviciitribute.png",
+        "img": "/images/aviciitribute.png",
         "popular": true
     },
     {
@@ -24,7 +24,7 @@
         ],
         "repository": "https://github.com/NahumCRep/AviciiTributePage",
         "link": "https://aviciitributefanpage.netlify.app/",
-        "img": "../../static/images/aviciitribute.png",
+        "img": "/images/aviciitribute.png",
         "popular": true
     },
     {
@@ -39,7 +39,7 @@
         ],
         "repository": "https://github.com/NeCvRep/VerarWeb",
         "link": "url-de-app",
-        "img":"../../static/images/verar.png",
+        "img":"/images/verar.png",
         "popular": true
     },
     {
@@ -56,7 +56,7 @@
         ],
         "repository": "https://github.com/NeCvRep/VerarWeb",
         "link": "url-de-app",
-        "img": "../../static/images/verar.png",
+        "img": "/images/verar.png",
         "popular": true
     },
     {
@@ -71,7 +71,7 @@
         ],
         "repository": "https://github.com/NeCvRep/VerarWeb",
         "link": "url-de-app",
-        "img": "../../static/images/verar.png",
+        "img": "/images/verar.png",
         "popular": false
     }
 ]

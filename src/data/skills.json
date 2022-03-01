@@ -1,46 +1,46 @@
 [
     {
         "name": "HTML",
-        "icon": "../../static/icons/html.png"
+        "icon": "/icons/html.png"
     },
     {
         "name": "CSS",
-        "icon": "../../static/icons/css3.png"
+        "icon": "/icons/css3.png"
     },
     {
         "name": "SASS",
-        "icon": "../../static/icons/sass.png"
+        "icon": "/icons/sass.png"
     },
     {
         "name": "TAILWIND",
-        "icon": "../../static/icons/tailwind.png"
+        "icon": "/icons/tailwind.png"
     },
     {
         "name": "JAVASCRIPT",
-        "icon": "../../static/icons/javascript.png"
+        "icon": "/icons/javascript.png"
     },
     {
         "name": "REACT JS",
-        "icon": "../../static/icons/react.png"
+        "icon": "/icons/react.png"
     },
     {
         "name": "GATSBY",
-        "icon": "../../static/icons/gatsby.png"
+        "icon": "/icons/gatsby.png"
     },
     {
         "name": "NODE JS",
-        "icon": "../../static/icons/nodejs.png"
+        "icon": "/icons/nodejs.png"
     },
     {
         "name": "MySql",
-        "icon": "../../static/icons/mysql.png"
+        "icon": "/icons/mysql.png"
     },
     {
         "name": "MONGO DB",
-        "icon": "../../static/icons/mongo.png"
+        "icon": "/icons/mongo.png"
     },
     {
         "name": "GIT",
-        "icon": "../../static/icons/git.png"
+        "icon": "/icons/git.png"
     }
 ]
