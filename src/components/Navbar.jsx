@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "../css/navbar.css";
 import { useTranslation, useI18next } from 'gatsby-plugin-react-i18next';
 import scrollTo from 'gatsby-plugin-smoothscroll';
-import logo from '../assets/icons/logowhite.svg';
+// import logo from '/icons/logowhite.svg';
 import LangSelector from './LangSelector';
 import useObserver from '../hooks/useObserver';
 
@@ -46,7 +46,7 @@ const Navbar = () => {
   return (
     <div className="nav-div-container">
       <div className="nav-logo">
-        <img src={logo} alt="logo" />
+        <img src="/icons/logowhite.svg" alt="logo" />
       </div>
       <nav className={`nav-container  ${menu ? 'm-open' : ''}`}>
         <LangSelector setLang={setALang} actualLang={language} />

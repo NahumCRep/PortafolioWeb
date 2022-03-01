@@ -21,7 +21,7 @@
     right: 0;
     bottom:  0;
     background-color: var(--black);
-    background-image: url('../assets//images//codebg.jpg');
+    background-image: url('/images/codebg.jpg');
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
