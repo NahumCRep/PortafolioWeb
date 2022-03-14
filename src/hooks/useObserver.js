@@ -4,10 +4,18 @@ const useObserver = (options) => {
     const [elements, setElements] = useState([]);
     const [entries, setEntries] = useState([]);
 
-    const observer = useRef(new IntersectionObserver(obEntries => {
-        // console.log(obEntries);
-        setEntries(obEntries);
-    }));
+    const observer = useRef()
+
+    // const observer = useRef(new IntersectionObserver(obEntries => {
+    //     // console.log(obEntries);
+    //     setEntries(obEntries);
+    // }));
+    useEffect(()=>{
+        observer.current = new IntersectionObserver(obEntries => {
+            // console.log(obEntries);
+            setEntries(obEntries);
+        })
+    },[])
 
     useEffect(()=>{
         const {current: currentObserved} = observer;
