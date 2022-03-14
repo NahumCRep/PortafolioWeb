@@ -28,18 +28,15 @@
         "popular": true
     },
     {
-        "name":"VERAR",
-        "description-es": "Sitio Web de la empresa (ficticia) VERAR para mostrar información sobre sus productos, principalemte los parches hechos a base de salvia, entre otros articulos",
-        "description-en": "Website of the company (fictitious) VERAR to show information about its products, mainly the patches made with sage, among other articles",
+        "name":"Portafolio",
+        "description-es": "Mi Portafolio Web",
+        "description-en": "My Web Portfolio",
         "tecnologies":[
-            "react",
-            "node js",
-            "express",
-            "mongo db"
+            "gatsby"
         ],
-        "repository": "https://github.com/NeCvRep/VerarWeb",
+        "repository": "https://github.com/NahumCRep/PortafolioWeb",
         "link": "url-de-app",
-        "img":"/images/verar.png",
+        "img":"/images/portafolio.png",
         "popular": true
     },
     {
