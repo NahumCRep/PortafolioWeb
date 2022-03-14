@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 import {graphql} from 'gatsby';
 import { useTranslation} from 'gatsby-plugin-react-i18next';
 import {Header, About, Skills, Project, Contact, Footer, SocialMedia} from '../components';

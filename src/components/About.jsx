@@ -7,7 +7,6 @@ const About = () => {
     const {t} = useTranslation();
     return(
         <section id="section-about" className="about-container">
-             {/* <img className='ab__back-photo' src={photo} alt="nahum photo"/> */}
             <div id="observed-about" className="ab__content">
                 <div className="ab__photo">
                     <img src={photo} alt="nahum"/>

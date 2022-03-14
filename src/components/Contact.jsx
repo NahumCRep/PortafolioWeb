@@ -14,9 +14,6 @@ const Contact = () => {
                     <input type="email" aria-label='email' placeholder={t("contact.phemail")} required/>
                     <textarea required></textarea>
                     <div className="form-btns">
-                        {/* <button
-                            onClick={()=>window.open("../static/pdf/curriculum.pdf")}
-                        >cv</button> */}
                         <button type="submit"
                             onSubmit={(e)=>{
                                 e.preventDefault();

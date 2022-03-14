@@ -32,7 +32,6 @@ const Navbar = () => {
   useEffect(()=>{
     entries.forEach(entry => {
       if(entry.isIntersecting){
-        // console.log(entry.target.id);
         if(entry.target.id === 'observed-header')setNavfocus('header')
         else if(entry.target.id === 'observed-about')setNavfocus('about')
         else if(entry.target.id === 'observed-skills')setNavfocus('skills')
