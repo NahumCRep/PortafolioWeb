@@ -28,8 +28,8 @@
         "icon": "/icons/gatsby.png"
     },
     {
-        "name": "NODE JS",
-        "icon": "/icons/nodejs.png"
+        "name": "NEXT JS",
+        "icon": "/icons/nextjs.svg"
     },
     {
         "name": "MySql",
