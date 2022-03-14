@@ -12,6 +12,12 @@ const Contact = () => {
         message:''
     })
 
+    const encode = (data) => {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+      }
+
     const handleChange = (e) => {
         setFormData({
             ...formData,
@@ -21,6 +27,13 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
+        fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact", ...formData })
+          })
+            .then(() => alert("Success!"))
+            .catch(error => alert(error));
         
     }
 
