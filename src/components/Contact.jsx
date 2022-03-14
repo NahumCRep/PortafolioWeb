@@ -1,22 +1,37 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import '../css/contact.css';
 import { useTranslation } from 'gatsby-plugin-react-i18next';
-import axios from "axios"
-import * as qs from "query-string"
+import Popup from './Popup';
 
 const Contact = () => {
     const { t } = useTranslation();
-    const [formData, setFormData] = useState({
-        name:'',
-        email:'',
-        message:''
+    const [isLoading, setIsLoading] = useState(false)
+    const [popupParams, setPopupParams] = useState({
+        type: '',
+        show: false
     })
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        message: ''
+    })
+
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setPopupParams({
+                ...popupParams,
+                show: false
+            })
+        }, 3000);
+        return () => clearTimeout(timer);
+    }, [popupParams]);
 
     const encode = (data) => {
         return Object.keys(data)
             .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
             .join("&");
-      }
+    }
 
     const handleChange = (e) => {
         setFormData({
@@ -27,14 +42,32 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
+        setIsLoading(true)
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...formData })
-          })
-            .then(() => alert("Success!"))
-            .catch(error => alert(error));
-        
+        })
+            .then(() => {
+                setIsLoading(false)
+                setFormData({
+                    name: '',
+                    email: '',
+                    message: ''
+                })
+                setPopupParams({
+                    type: 'success',
+                    show: true
+                })
+            })
+            .catch(error => {
+                console.log(error)
+                setIsLoading(false)
+                setPopupParams({
+                    type: 'error',
+                    show: true
+                })
+            });
     }
 
     return (
@@ -47,11 +80,17 @@ const Contact = () => {
                     <input type="email" aria-label='email' name='email' placeholder={t("contact.phemail")} onChange={handleChange} required />
                     <textarea name='message' onChange={handleChange} required></textarea>
                     <div className="form-btns">
-                        <button type="submit"
-                        >{t("contact.btnsend")}</button>
+                        <button type="submit">
+                            {
+                                isLoading
+                                    ? <i className="fa-solid fa-spinner loader"></i>
+                                    : t("contact.btnsend")
+                            }
+                        </button>
                     </div>
                 </form>
             </div>
+            <Popup type={popupParams.type} show={popupParams.show} />
         </section>
     )
 }

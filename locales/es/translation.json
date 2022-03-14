@@ -39,5 +39,9 @@
     },
     "footer":{
         "copy": "Desarrollado por"
+    },
+    "popup":{
+        "success": "Mensaje enviado correctamente",
+        "error": "Error al enviar mensaje"
     }
 }

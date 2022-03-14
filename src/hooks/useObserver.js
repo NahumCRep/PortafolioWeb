@@ -12,7 +12,6 @@ const useObserver = (options) => {
     // }));
     useEffect(()=>{
         observer.current = new IntersectionObserver(obEntries => {
-            // console.log(obEntries);
             setEntries(obEntries);
         })
     },[])
