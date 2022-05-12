@@ -152,7 +152,8 @@
         width: 300px;
     }
     .card__text p {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        letter-spacing: 1px;
     }
     .middle_gear{
         bottom: 0;

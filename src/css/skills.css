@@ -124,7 +124,7 @@
 
 .dialog-box p {
     color: var(--white);
-    font-size: 3.5vw;
+    font-size: 1rem;
     font-family: var(--quando);
     text-align: center;
     letter-spacing: 1px;
