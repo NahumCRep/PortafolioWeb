@@ -14,17 +14,18 @@
         "popular": true
     },
     {
-        "name":"Avicci Tribute Page",
-        "description-es": "Página tributo a Avicii que incluye enlace a los sitios oficiales de Avicii, algunas de las canciones y una pequeña cronologia.",
-        "description-en": "Tribute page to Avicii that includes links to Avicii's official sites, some of the songs and a small chronology.",
+        "name":"Fitness Blog",
+        "description-es": "Blog sobre diversos temas relacionados al ejercicio y una vida saludable. Inicio de sesion con google o github. El administrador puede crear, editar y eliminar, los posts y categories",
+        "description-en": "Blog on various topics related to exercise and healthy living. Login with google or github. The administrator can create, edit and delete posts and categories",
         "tecnologies":[
-            "html",
-            "sass",
-            "javascript"
+            "next js",
+            "tailwind",
+            "next auth",
+            "firebase"
         ],
-        "repository": "https://github.com/NahumCRep/AviciiTributePage",
-        "link": "https://aviciitributefanpage.netlify.app/",
-        "img": "/images/aviciitribute.png",
+        "repository": "https://github.com/NahumCRep/NextFitnessBlog",
+        "link": "https://fitnessblognc.vercel.app/",
+        "img": "/images/fitnessblog.png",
         "popular": true
     },
     {
