@@ -14,6 +14,19 @@
         "popular": true
     },
     {
+        "name":"VERAR",
+        "description-es": "Sitio Web del Proyecto universitario sobre un empresa de parches llamada Verar",
+        "description-en": "University Project Website about a patch company called Verar",
+        "tecnologies":[
+            "react js",
+            "leaflet"
+        ],
+        "repository": "https://github.com/NeCvRep/VerarWeb",
+        "link": "url-de-app",
+        "img": "/images/verar.png",
+        "popular": true
+    },
+    {
         "name":"Fitness Blog",
         "description-es": "Blog sobre diversos temas relacionados al ejercicio y una vida saludable. Inicio de sesion con google o github. El administrador puede crear, editar y eliminar, los posts y categories",
         "description-en": "Blog on various topics related to exercise and healthy living. Login with google or github. The administrator can create, edit and delete posts and categories",
@@ -29,6 +42,19 @@
         "popular": true
     },
     {
+        "name":"CMovies",
+        "description-es": "Catalogo de películas y series utilizando la api de the movie db para obtener las imágenes e información que se muestran en el sitio",
+        "description-en": "Catalog of movies and series using the api of the movie db to obtain the images and information that are shown on the site",
+        "tecnologies":[
+            "react js",
+            "The Movie DB api"
+        ],
+        "repository": "https://github.com/NahumCRep/CMovies",
+        "link": "https://ncmovies.netlify.app/",
+        "img": "/images/cmovies.png",
+        "popular": true
+    },
+    {
         "name":"Portafolio",
         "description-es": "Mi Portafolio Web",
         "description-en": "My Web Portfolio",
@@ -38,23 +64,6 @@
         "repository": "https://github.com/NahumCRep/PortafolioWeb",
         "link": "url-de-app",
         "img":"/images/portafolio.png",
-        "popular": true
-    },
-    {
-        "name":"VERAR 3",
-        "description-es": "",
-        "description-en": "",
-        "tecnologies":[
-            "next js",
-            "bootstrap",
-            "firebase",
-            "express",
-            "express",
-            "express"
-        ],
-        "repository": "https://github.com/NeCvRep/VerarWeb",
-        "link": "url-de-app",
-        "img": "/images/verar.png",
         "popular": true
     },
     {
