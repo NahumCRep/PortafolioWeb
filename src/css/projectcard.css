@@ -38,13 +38,12 @@
 
 .card__text h3{
     color: var(--orange);
-    font-family: var(--quando);
+    font-family: var(--primaryFont);
 }
 
 .card__text p {
-    /* margin-top: 5px; */
     color: var(--white);
-    font-family: var(--quando);
+    font-family: var(--primaryFont);
     font-size: 0.7rem;
     padding-top: 0.5rem;
 }
@@ -56,7 +55,6 @@
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
-    /* background-color: aqua; */
 }
 .card__tecnologies span{
     background-color: var(--blackop);
@@ -90,7 +88,7 @@
 
 .card__button a{
     text-decoration: none;
-    font-family: var(--judson);
+    font-family: var(--secondaryFont);
     color: var(--white);
     transition: color 0.3s ease-in-out;
 }

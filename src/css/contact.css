@@ -30,7 +30,7 @@
 }
 
 .Cct-form form h3{
-    font-family: var(--quando);
+    font-family: var(--primaryFont);
     color: var(--orange);
     font-size: 1.5rem;
 }
@@ -42,7 +42,7 @@
     border: none;
     border-radius: 10px;
     outline: none;
-    font-family: var(--quando);
+    font-family: var(--primaryFont);
     margin-top: 10px;
     padding: 10px;
     transition: box-shadow 0.3s ease-in-out;
@@ -81,7 +81,7 @@
     height: 80%;
     outline: none;
     border: none;
-    font-family: var(--quando);
+    font-family: var(--primaryFont);
     background-color: var(--orange);
     color: var(--white);
     font-size: 0.9rem;

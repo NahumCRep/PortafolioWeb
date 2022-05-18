@@ -53,13 +53,13 @@
 }
 
 .ab__text h1{
-    font-family: var(--quando);
+    font-family: var(--primaryFont);
     font-size: 1.2rem;
     color: var(--orange);
 }
 
 .ab__text p{
-    font-family: var(--judson);
+    font-family: var(--secondaryFont);
     font-size: 1rem;
     margin-top: 10px;
     color: var(--white);
@@ -80,7 +80,6 @@
         height: 60%;
         flex-direction: row;
         justify-content: flex-start;
-        /* padding: 0 1rem; */
     }
 
     .ab__photo{
@@ -94,7 +93,6 @@
         width: 30%;
         height: auto;
         left: 5%;
-        /* filter: blur(5px); */
     }
 
      .ab__photo img{
@@ -110,13 +108,13 @@
     }
 
     .ab__text h1{
-        font-family: var(--quando);
+        font-family: var(--primaryFont);
         font-size: 1.5rem;
         margin-top: 20px;
     }
     
     .ab__text p{
-        font-family: var(--judson);
+        font-family: var(--secondaryFont);
         font-size: 1.1rem;
         margin-top: 20px;
     }

@@ -65,7 +65,7 @@
 .nav-links li{
     width: auto;
     margin: 0 !important;
-    font-family: var(--quando);
+    font-family: var(--primaryFont);
     font-size: 1rem;
     list-style: none;
     white-space: nowrap;
@@ -120,7 +120,6 @@
     }    
 
     .nav-links{
-        /* margin-right: 90px; */
         flex-direction: row;
     }
 

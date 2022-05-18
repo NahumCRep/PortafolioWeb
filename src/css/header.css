@@ -40,7 +40,6 @@
     gap: 20px;
     color: var(--white);
     text-shadow: 1px 1px 5px #000;
-    /* background-color: aqua; */
 }
 
 .hc__secondline h1:nth-child(2){
@@ -61,10 +60,10 @@
 
 /* font family */
 .hc__firtsline h3, .hc__secondline h1, .hc__buttons button{
-    font-family: var(--quando);
+    font-family: var(--primaryFont);
 }
 .hc__thirdline h3{
-    font-family: var(--judson);
+    font-family: var(--secondaryFont);
 }
 /* ------------------------------ */
 /* h sizes */

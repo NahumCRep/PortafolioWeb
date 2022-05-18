@@ -1,12 +1,4 @@
 :root{
-    /* --white: #EEF9EC;
-    --darkpurple: #33066C;
-    --purple: #5626BA;
-    --lightpurple: #8957FF;
-    --lightorange: #FFB522;
-    --orange: #F38200; */
-    /* --black: #333333; */
-
     --dark: #1A1A1A;
     --black: #333333;
     --orange: #F38200;
@@ -16,6 +8,7 @@
     --darkerop: rgba(26, 26, 26, 0.80);
     --blackop: rgba(51, 51, 51, 0.90);
 
-    --judson: 'Judson', serif;
-    --quando: 'Quando', serif;
+    /* --judson: 'Judson', serif; */
+    --secondaryFont: 'Fredoka', sans-serif;
+    --primaryFont: 'Quando', serif;
 }
