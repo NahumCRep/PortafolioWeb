@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/project.css';
-import {Link, useTranslation, useI18next } from 'gatsby-plugin-react-i18next';
+import {useTranslation, useI18next } from 'gatsby-plugin-react-i18next';
 import { graphql, useStaticQuery } from 'gatsby';
 import ProjectCard from './ProjectCard';
 
@@ -48,9 +48,6 @@ const Project = () => {
                 })
               }
             </div>
-            <div className="pj-linkToAll">
-                <Link to="/page-2/">{t("projects.pj-all")}</Link>
-            </div> 
         </section>
     )
 }

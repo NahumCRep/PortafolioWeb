@@ -6,10 +6,6 @@ const useObserver = (options) => {
 
     const observer = useRef()
 
-    // const observer = useRef(new IntersectionObserver(obEntries => {
-    //     // console.log(obEntries);
-    //     setEntries(obEntries);
-    // }));
     useEffect(()=>{
         observer.current = new IntersectionObserver(obEntries => {
             setEntries(obEntries);
