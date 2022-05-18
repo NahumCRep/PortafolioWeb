@@ -62,7 +62,7 @@
             "gatsby"
         ],
         "repository": "https://github.com/NahumCRep/PortafolioWeb",
-        "link": "url-de-app",
+        "link": "https://nahumcasco.netlify.app/",
         "img":"/images/portafolio.png",
         "popular": true
     },
