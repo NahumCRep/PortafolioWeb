@@ -29,7 +29,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#F38200`,
         display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        icon: `static/icons/logo.png`, // This path is relative to the root of the site.
       },
     },
     {
