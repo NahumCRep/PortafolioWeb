@@ -22,7 +22,7 @@
             "leaflet"
         ],
         "repository": "https://github.com/NeCvRep/VerarWeb",
-        "link": "url-de-app",
+        "link": "https://verar.netlify.app/",
         "img": "/images/verar.png",
         "popular": true
     },
@@ -65,20 +65,5 @@
         "link": "https://nahumcasco.netlify.app/",
         "img":"/images/portafolio.png",
         "popular": true
-    },
-    {
-        "name":"VERAR 4",
-        "description-es": "",
-        "description-en": "",
-        "tecnologies":[
-            "react",
-            "node js",
-            "express",
-            "mongo db"
-        ],
-        "repository": "https://github.com/NeCvRep/VerarWeb",
-        "link": "url-de-app",
-        "img": "/images/verar.png",
-        "popular": false
     }
 ]
